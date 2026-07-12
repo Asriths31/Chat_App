@@ -1,12 +1,12 @@
 import axios from "axios";
 
 
-export const baseURL="https://chat-app-server-w5ez.onrender.com/api"
-//export const baseURL="http://localhost:2000/api"
+export const baseURL="https://chat-app-server-w5ez.onrender.com"
+//export const baseURL="http://localhost:2000"
 
 
 const chatApi = axios.create({
-  baseURL,
+  baseURL:`${baseURL}/api`
 });
 
 // fetch all messages
