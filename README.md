@@ -196,10 +196,6 @@ Saves a new message and broadcasts it via socket.
 - Username is entered manually (no auth)
 - Username is stored in localStorage for persistence
 - All users see all messages
-- No message editing or deletion
-- No typing indicators
-- No read receipts
-- No file/image sharing
 
 ---
 
