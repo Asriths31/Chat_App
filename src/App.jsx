@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
-import ChatPage from "./pages/ChatPage";
+import ChatPage from "./ChatPage";
 
 const queryClient = new QueryClient();
 
