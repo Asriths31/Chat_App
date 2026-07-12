@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-export const baseURL="https://chat-app-server-w5ez.onrender.com"
+export const baseURL="https://chat-app-server-w5ez.onrender.com/api"
 //export const baseURL="http://localhost:2000/api"
 
 
