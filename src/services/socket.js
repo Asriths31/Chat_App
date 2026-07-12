@@ -1,5 +1,6 @@
 import { io } from "socket.io-client";
+import { baseURL } from "../api/chatApi";
 
-const socket = io("http://localhost:2000");
+const socket = io(baseURL);
 
 export default socket;
